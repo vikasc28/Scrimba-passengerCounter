@@ -8,6 +8,9 @@ function increment() {
     countEl.innerText = count
 }
 
+
+//Save function saves the count and also concatenates new saved values
+
 function save() {
     countStr = count + " - "
 
@@ -16,3 +19,4 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+
